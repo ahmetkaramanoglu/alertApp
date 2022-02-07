@@ -25,10 +25,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func signupClicked(_ sender: Any) {
-        let alert = UIAlertController.init(title: "Error!", message: "Username not found.", preferredStyle: UIAlertController.Style.alert)
-        
-        
-        
+  
         username = usernameText.text!
         password = passwordText.text!
         password2 = password2Text.text!
